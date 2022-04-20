@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+    .nav{
+        padding-top: 10px;
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+        padding: 0 20px;
+    }
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 10px 10px 10px 0;
+    background-color: #FFFFFF;
+    color: rgba(54, 54, 236, 0.575);   
+}
+}
+
