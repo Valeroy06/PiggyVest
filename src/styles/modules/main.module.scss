@@ -1,0 +1,41 @@
+.best{
+    display: flex;
+   justify-content: space-between;
+   padding: 20px 80px;
+
+
+   .Aisha{
+       padding-bottom: 20%;
+       padding-right: 9%;
+   }
+   .Justin{
+       padding-bottom: 10%;
+   }
+
+   .save{
+       text-align: center;
+       color: #FFFFFF;
+       padding: 60px;
+
+
+       h1{
+           font-size: 60px;
+       }
+       p{
+           padding: 2% 25%;
+           line-height: 1.5;
+           color: #ffffffce;
+       }
+       button{
+        padding: 20px 30px;
+        border-radius: 10px 10px 10px 0;
+        background-color: #FFFFFF;
+        color: rgba(54, 54, 236, 0.575);
+       }
+   }
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}

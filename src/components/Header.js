@@ -1,10 +1,11 @@
 import Images from "../img/Images";
+import styles from "../styles/modules/header.module.scss"
 
 function Header() {
     return (
         <header>
             <img src={Images.PiggyVest} alt="Piggyvest" />
-            <div className="nav">
+            <div className={styles.nav}>
                 <a href="/">Save</a>
                 <a href="/">Invest</a>
                 <a href="/">Stories</a>

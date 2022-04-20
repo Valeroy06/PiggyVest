@@ -1,5 +1,5 @@
 import './App.css';
-import './styles/Style.scss';
+import './styles/global.scss';
 import PiggyVest from './layouts/PiggyVest';
 
 function App() {

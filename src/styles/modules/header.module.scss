@@ -1,14 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 header{
-    background-color: blue;
+    // background-color: blue;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 30px 80px;
 
     .nav{
         padding-top: 10px;
@@ -26,4 +22,3 @@ button{
     color: rgba(54, 54, 236, 0.575);   
 }
 }
-
