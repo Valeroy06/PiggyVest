@@ -38,4 +38,36 @@
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
+    
+
+
+    .App_Store{
+       padding-right: 40px;
+    }
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+
+    .key{
+        display: flex;
+        
+
+        p{
+            padding: 0 28%;
+            text-align: left;
+        }
+    }
+
+    .preloader{
+        display: flex;
+        
+        
+
+        p{
+            padding: 0 19%;
+            text-align: left;
+        }
+    }
 }
