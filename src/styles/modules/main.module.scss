@@ -83,3 +83,23 @@
     }
 }
 }
+
+.container{
+    background-color: #FFFFFF;
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    grid-template-rows: auto;
+}
+    .piggy{
+    display: flex;
+    text-align: left;
+}
+.save_phone_min{
+    width: 10%;
+    display: none;
+}
+
+}
