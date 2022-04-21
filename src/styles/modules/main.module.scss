@@ -45,7 +45,14 @@
        padding-right: 40px;
     }
 }
-.content{
+
+.secure{
+    color: #FFFFFF;
+
+    h2{
+        padding: 60px 0;
+    }
+    .content{
     display: flex;
     justify-content: space-between;
     padding: 30px 80px;
@@ -55,7 +62,7 @@
         
 
         p{
-            padding: 0 28%;
+            padding: 0 23%;
             text-align: left;
         }
     }
@@ -66,8 +73,13 @@
         
 
         p{
-            padding: 0 19%;
+            padding: 0 17%;
             text-align: left;
         }
+        
+        .Preloader_icon{
+            width: 10%;
+        }
     }
+}
 }

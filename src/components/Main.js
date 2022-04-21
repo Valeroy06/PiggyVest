@@ -31,7 +31,7 @@ function Main() {
                 </div>
                 <img src={Images.kola} alt="kola" />
             </div>
-            <div>
+            <div className={styles.secure}>
                 <h2>Security Comes First</h2>
                 <div className={styles.content}>
                     <div className={styles.key}>
@@ -43,7 +43,7 @@ function Main() {
                         </p>
                     </div>
                     <div className={styles.preloader}>
-                        <img src={Images.Preloader_icon} alt="Preloader_icon" />
+                        <img src={Images.Preloader_icon} className={styles.Preloader_icon} alt="Preloader_icon" />
                         <p>
                             Two-factor authentication (2FA) by default on all PiggyVest
                             accounts, to securely protect you from unauthorised access and
