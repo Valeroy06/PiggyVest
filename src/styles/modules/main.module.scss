@@ -124,5 +124,38 @@
     left: 1170px;
     // display: none;
 }
+}
 
+.invest{
+    text-align: left;
+    background: {
+        image: url('/img/Backgroundfruits.svg');
+        repeat: no-repeat;
+        size: 100%;
+        color: #A44DF4B2;
+    }
+    padding: 100px 0px 100px 50px;
+    color: #FFFFFF;
+
+    p{
+        padding: 60px 0;
+        border-bottom: #FFFFFF 1px solid;
+        width: 25% ;
+    }
+}
+
+.containers{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 50px 0;
+
+    .child{
+        display: flex;
+        text-align: left;
+
+        .pre{
+            padding: 0 20px;
+        }
+    }
 }

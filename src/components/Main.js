@@ -96,6 +96,45 @@ function Main() {
                     <img src={Images.save_phone_min} className={styles.save_phone_min} alt="save_phone_min" />
                 </div>
             </div>
+            <div className={styles.invest}>
+                <h2>Access investment <br /> opportunities</h2>
+                <p>Grow your money confidently by investing in <br /> pre-vetted investment opportunities.</p>
+                <span>Learn more about Investments</span>
+            </div>
+            <div>
+                <h2>Loved by our Customers</h2>
+                <div className={styles.containers}>
+                    <div className={styles.child}>
+                        <img src={Images.man_4} className={styles.sames} alt="man_4" />
+                        <div className={styles.pre}>
+                            <span>Piggyvest helps me and my family a lot and I'm happy about it. It's legit and trustworthy</span><br />
+                            <small>EMMANUEL A.</small>
+                        </div>
+                    </div>
+                    <div className={styles.child}>
+                        <img src={Images.man_1} className={styles.sames} alt="man_1" />
+                        <div className={styles.pre}>
+                            <span>At first, I thought it wasn't legit, but I have saved my sister's house rent here with piggyvest. Best savings platform</span><br />
+                            <small>NWOSU N.</small>
+                        </div>
+                    </div>
+                    <div className={styles.child}>
+                        <img src={Images.man_2} className={styles.sames} alt="man_2" />
+                        <div className={styles.pre}>
+                            <span>I initially refused to subscribe to this idea of e-piggybank though, I'm a fan of the physical one. Ever since I joined I've only had cause to ask for more....</span><br />
+                            <small>BAMIDELE A.</small>
+                        </div>
+                    </div>
+                    <div className={styles.child}>
+                        <img src={Images.man_3} className={styles.sames} alt="man_3" />
+                        <div className={styles.pre}>
+                            <span>I use piggyvest to invest a lot of business</span><br />
+                            <small>OLOYEDE A.</small>
+                        </div>
+                    </div>
+                </div>
+                <h3>Read  more amazing stories</h3>
+            </div>
         </main>
     );
 }
