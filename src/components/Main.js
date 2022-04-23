@@ -136,12 +136,21 @@ function Main() {
                 <h3>Read  more amazing stories</h3>
             </div>
             <div className={styles.section}>
-                <img src={Images.people} className={styles.man} alt="people" />
-                <div>
+                <img src={Images.people} alt="people" />
+                <div className={styles.launch}>
                     <h2>1,000,000+ customers</h2>
                     <p>Since launching in 2016, over 1,000,000 people have used PiggyVest to manage their money better, avoid over-spending and be more accountable
                     </p>
                     <button>Create A Free Account</button>
+                </div>
+            </div>
+            <div className={styles.class}>
+                <h2>As Featured In</h2>
+                <div>
+                <img src={Images.forbes} className={styles.forbes} alt="forbes" />
+                <img src={Images.techcrunch} className={styles.forbes} alt="techcrunch" />
+                <img src={Images.theguardian} className={styles.forbes} alt="theguardian" />
+                <img src={Images.techpoint} className={styles.forbes} alt="techpoint" />
                 </div>
             </div>
         </main>
