@@ -1,3 +1,5 @@
+@use "../" as *;
+
 .best {
   display: flex;
   justify-content: space-between;
@@ -14,7 +16,7 @@
 
   .save {
     text-align: center;
-    color: #ffffff;
+    // color: #ffffff;
     padding: 60px;
 
     h1 {
@@ -24,14 +26,14 @@
     p {
       padding: 2% 25%;
       line-height: 1.5;
-      color: #ffffffce;
+    //   color: #ffffffce;
     }
 
     button {
       padding: 20px 30px;
       border-radius: 10px 10px 10px 0;
       background-color: #ffffff;
-      color: rgba(54, 54, 236, 0.575);
+      color: #083E9E;
     }
   }
 }
@@ -84,7 +86,7 @@
 }
 
 .container {
-  background-color: #ffffff;
+  background-color: $white;
   padding: 40px 0px 90px 0px;
 
   .same {
@@ -99,6 +101,25 @@
 
   p {
     padding: 20px 0;
+    color: $gray;
+  }
+  h2{
+      color: $blue;
+  }
+  span{
+      color: $lightBlue;
+  }
+  #goal{
+      color: #16AF4F;
+  }
+  #flexible{
+      color: $pink;
+  }
+  #dollar{
+      color:$black;
+  }
+  #fixed{
+      color: #2295F2;
   }
 
   .grid {
@@ -138,7 +159,7 @@
   }
 
   padding: 100px 0px 100px 50px;
-  color: #ffffff;
+//   color: #ffffff;
 
   p {
     padding: 60px 0;
@@ -184,6 +205,10 @@
 
       .pre {
         padding: 0 20px;
+
+        small{
+            color: #ffffff7c;
+        }
       }
     }
   }
@@ -205,16 +230,14 @@
 
         p{
             padding: 30px 0;
+            color: #15143999;
         }
 
         button{
             padding: 20px 30px;
       border-radius: 10px 10px 10px 0;
-      background-color: blue;
-      color: white;
+      background-color: #083E9E;
+      color: #FFFFFF;
         }
     }
-}
-.class{
-    
 }

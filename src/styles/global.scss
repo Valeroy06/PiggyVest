@@ -1,3 +1,5 @@
+@use "./" as *;
+
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
 }
 
 body{
-    background-color: blue;
-    font-family: 'DM Sans';
+    background-color: $blue;
+    font-family: $fontFamily;
+    color: $white;
 }

@@ -68,28 +68,28 @@ function Main() {
                     <div className={styles.piggy}>
                         <img src={Images.safelock_icon} className={styles.same} alt="safelock_icon" />
                         <div className={styles.savings}>
-                            <span>FIXED SAVINGS</span><br />
+                            <span id={styles.fixed}>FIXED SAVINGS</span><br />
                             <p>Lock money away for a fixed duration with no access to it until maturity. It’s like having a custom fixed deposit</p>
                         </div>
                     </div>
                     <div className={styles.piggy}>
                         <img src={Images.Greendot} className={styles.same} alt="Greendot" />
                         <div className={styles.savings}>
-                            <span>GOAL-ORIENTED SAVINGS</span><br />
+                            <span id={styles.goal}>GOAL-ORIENTED SAVINGS</span><br />
                             <p>Reach all your savings goals faster. Save towards multiple goals on your own or with a group.</p>
                         </div>
                     </div>
                     <div className={styles.piggy}>
                         <img src={Images.naira_icon} className={styles.sames} alt="naira_icon" />
                         <div className={styles.savings}>
-                            <span>FLEXIBLE SAVINGS</span><br />
+                            <span id={styles.flexible}>FLEXIBLE SAVINGS</span><br />
                             <p>Save, transfer, withdraw, manage and organise your money for free at any time</p>
                         </div>
                     </div>
                     <div className={styles.piggy}>
                         <img src={Images.dollar_icon} className={styles.sames} alt="dollar_icon" />
                         <div className={styles.savings}>
-                            <span>DOLLAR SAVINGS</span><br />
+                            <span id={styles.dollar}>DOLLAR SAVINGS</span><br />
                             <p>Save in foreign currencies such as USD and Euros.</p>
                         </div>
                     </div>
@@ -142,15 +142,6 @@ function Main() {
                     <p>Since launching in 2016, over 1,000,000 people have used PiggyVest to manage their money better, avoid over-spending and be more accountable
                     </p>
                     <button>Create A Free Account</button>
-                </div>
-            </div>
-            <div className={styles.class}>
-                <h2>As Featured In</h2>
-                <div>
-                <img src={Images.forbes} className={styles.forbes} alt="forbes" />
-                <img src={Images.techcrunch} className={styles.forbes} alt="techcrunch" />
-                <img src={Images.theguardian} className={styles.forbes} alt="theguardian" />
-                <img src={Images.techpoint} className={styles.forbes} alt="techpoint" />
                 </div>
             </div>
         </main>
